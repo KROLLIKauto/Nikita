@@ -106,9 +106,17 @@ dd {
     margin-bottom: -8px;
 }
 .logo{
+    display: flex;
+    justify-content: center;
     margin: 7px 7px 0 0;
+    height: 80px;
     align-items: flex-end;
 }
+
+.logo img {
+    height: 100%;
+}
+
 .main{
     width: 60%;
     
